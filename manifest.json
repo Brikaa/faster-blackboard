@@ -1,0 +1,6 @@
+{
+  "name": "BlackBoard Intermediate Page Skipper",
+  "description": "Skip the intermediate page that BlackBoard shows when opening a PDF",
+  "version": "1.0",
+  "manifest_version": 3
+}
