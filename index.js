@@ -1,3 +1,4 @@
+console.log("BlackBoard Skipper")
 Array.from(document.getElementsByTagName('A'))
     .filter((a) => a.href.includes('bbcswebdav'))
     .forEach((a) => {

@@ -1,6 +1,12 @@
 {
-  "name": "BlackBoard Intermediate Page Skipper",
+  "name": "BlackBoard Skipper",
   "description": "Skip the intermediate page that BlackBoard shows when opening a PDF",
   "version": "1.0",
-  "manifest_version": 3
+  "manifest_version": 3,
+  "content_scripts": [{
+    "matches": ["*://*.blackboard.com/*"],
+    "js": ["index.js"],
+    "run_at": "document_idle"
+  }],
+  "permissions": []
 }
