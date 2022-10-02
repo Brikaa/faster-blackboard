@@ -1,6 +1,6 @@
 # Faster BlackBoard
 
-A chrome extension that skips the intermediate page that BlackBoard shows when opening PDFs
+A chrome extension that skips the intermediate page that BlackBoard shows when opening PDFs from the course content.
 
 ### Before
 ![Before](images/example-before.png)
