@@ -5,7 +5,7 @@
     "manifest_version": 3,
     "content_scripts": [
         {
-            "matches": ["*://*.blackboard.com/*"],
+            "matches": ["*://*.blackboard.com/webapps/blackboard/content/*"],
             "js": ["index.js"],
             "run_at": "document_idle",
             "all_frames": true
